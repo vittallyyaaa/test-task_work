@@ -36,6 +36,48 @@ div {
     height: 120px;
 }
 
+.flag3 {
+    height: 216px;
+    background-color: #02529C;
+    position: relative;
+}
+
+.flag3 div {
+    position: absolute;
+    border: none;
+}
+
+.white1 {
+    height: 100%;
+    width: 34px;
+    background-color: white;
+    left: 30%;
+}
+.white2 {
+    height: 34px;
+    width: 100%;
+    background-color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.red1 {
+    height: 100%;
+    width: 20px;
+    background-color: #ff0000;
+    left: calc(30% + 7px);
+}
+
+.red2 {
+    height: 20px;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ff0000;
+}
+
+
+
 .flag4 {
     background: linear-gradient(180deg, #ffffff 50%, #ff0000 50%);
 }
